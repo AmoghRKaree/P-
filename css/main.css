@@ -92,6 +92,13 @@ p {
     text-align: center;
 }
 
+.stockfish-logo {
+    max-width: 40%; /* Limit image width to 80% of its container */
+    max-height: 150px; /* Set a maximum height */
+    margin: 0 auto; /* Center the image within the column */
+    display: block; /* Ensures the centering works properly */
+}
+
 /* Headings */
 h2, h3 {
     color: #2aa198;
